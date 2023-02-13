@@ -1,7 +1,9 @@
-Tool check:
-  Yosys
-  OpenSTA
+TOOL CHECK:
   ngspice
   iverilog
   gtkwave
   magic
+  
+  
+  
+  
