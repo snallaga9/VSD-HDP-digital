@@ -1,9 +1,0 @@
-TOOL CHECK:
-  ngspice
-  iverilog
-  gtkwave
-  magic
-  
-  
-  
-  
