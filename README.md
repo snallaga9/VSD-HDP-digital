@@ -10,6 +10,7 @@
 ## yosys: 
 ### installation: 
 $ git clone https://github.com/YosysHQ/yosys.git
+
 //here I had created yosys directory in which github repo is cloned
 ![pg-1](https://user-images.githubusercontent.com/110479456/218370301-4cef7218-eb3a-4345-8f0a-7418a3155380.png)
 
