@@ -129,3 +129,6 @@ $   sudo apt-get install libncurses-dev
 6. **write_verilog -noattr design_name_netlist.v**
 
 //writing out the synthesized netlist with technology mapped logic gates
+
+## GLS [Gate Level Simulation]
+link: https://github.com/snallaga9/VSD-HDP-digital/wiki/WEEK-1#day-4--gls-gate-level-simulation
