@@ -99,3 +99,33 @@ $   sudo apt-get install libncurses-dev
 
 //waveform viewer will openup with the input & output stimulus.
 
+
+## synthesis
+### executing steps:
+1. **read_liberty -lib $PATH/*.lib** 
+
+// in our case read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+* you are reading the .lib content //all the models
+
+2. **read_verilog design.v**
+
+//reading the design or loading the design
+
+3. **synth -top design_name**
+
+//give design_name for it to be relevant
+
+* read the statistics it prints to see the models it loads for the design.
+
+4. **abc -liberty $PATH/*.lib**
+
+//technology mapping using ABC
+
+5. **show design_name**
+
+//design_name given in the synthesis run step.3 "synth -top design_name"
+
+6. **write_verilog -noattr design_name_netlist.v**
+
+//writing out the synthesized netlist with technology mapped logic gates
