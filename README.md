@@ -81,3 +81,10 @@ $   sudo apt-get install libncurses-dev
 
 
 
+## SImulator
+### executing steps:
+iverilog design_file.v testbench_design_file.v // you can also give iverilog design_file.v testbench_design_file.v -o design_executable
+./a.out //this a.out executable file is generated or ./design_executable if you have specified any
+testbench_design_file.vcd //vcd dump file is generated
+gtkwave testbench_design_file.vcd //waveform viewer will openup with the input & output stimulus.
+
